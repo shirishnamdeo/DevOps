@@ -1,0 +1,39 @@
+DKR-001 [Docker] What is a Container?
+DKR-002 [Docker] What is a Container vs Virtual-Machine?
+
+----------------------------------------------------------------------------------------------------
+DKR-001 [Docker] What is a container?
+
+Docker container is a runtime instance of an image.
+
+Containers are:
+
+Self-contained. Each container has everything it needs to function with no reliance on any 
+pre-installed dependencies on the host machine.
+
+Isolated. Since containers are run in isolation, they have minimal influence on the host and other 
+containers, increasing the security of your applications.
+
+Independent. Each container is independently managed. Deleting one container won't affect any 
+others.
+
+Portable. Containers can run anywhere! The container that runs on your development machine will work
+the same way in a data center or anywhere in the cloud!
+
+----------------------------------------------------------------------------------------------------
+DKR-002 [Docker] What is a Container vs Virtual-Machine?
+
+VIRTUAL MACHINES
+Virtual machines (VMs) are an abstraction of physical hardware turning one server into many servers. 
+The hypervisor allows multiple VMs to run on a single machine. Each VM includes a full copy of an 
+operating system, the application, necessary binaries and libraries – taking up tens of GBs. VMs can
+also be slow to boot.
+
+CONTAINERS
+Containers are an abstraction at the app layer that packages code and dependencies together. 
+Multiple containers can run on the same machine and share the OS kernel with other containers, each 
+running as isolated processes in user space. Containers take up less space than VMs (container 
+images are typically tens of MBs in size), can handle more applications and require fewer VMs and 
+Operating systems.
+
+----------------------------------------------------------------------------------------------------
